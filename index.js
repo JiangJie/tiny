@@ -2,6 +2,11 @@
 
 'use strict';
 
+/*
+功能：使用tiny压缩图片，自动循环压缩图片，直到不能再压缩，并覆盖原文件
+使用方法：tiny name.png
+*/
+
 /* 因不能使用proxy，此方案放弃
 const tinify = require('tinify');
 
